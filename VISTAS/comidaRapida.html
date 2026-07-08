@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antojopedia - Postres</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="../css/categoriasGenerales.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contenedorPrincipal">
+        <article class="tituloCategoria">
+             <label>Comida Rapida</label>
+        </article>
+        
+        <header class="menuCategorias">
+         <ul class="listaCategorias">   
+          <li onclick="location.href='../index.html'">Inicio</li>
+          <li onclick="CargarComida('Todos')">Todos</li>
+          <li onclick="CargarComida('Hamburguesas')">Hamburguesas</li>
+          <li onclick="CargarComida('Pizzas')">Pizzas</li>
+          <li onclick="CargarComida('HotDogs')">Hot Dog</li>
+          <li onclick="CargarComida('TacosyWraps')">Tacos y Wraps</li>
+          <li onclick="CargarComida('Pollo')">Pollo</li>
+          <li onclick="CargarComida('PapasyAcompañamientos')">Papas y acompañamientos </li>
+          <li onclick="CargarComida('Sándwiches')">Sándwiches</li>
+          <li onclick="CargarComida('Snacks')">Snacks</li>
+         </ul>
+        </header>
+
+       <article id="contenedorComidaRapida" class="contenedorTarjetas">
+       </article>
+       <script src="../js/filtradoComidaRapida.js"></script>
+       
+       <footer>
+        <p>&copy; 2026 Antojopedia - Todos los derechos reservados.</p>
+       </footer>
+    </div>
+</body>
+</html>

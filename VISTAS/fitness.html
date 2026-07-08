@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antojopedia - Fitness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="../css/categoriasGenerales.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contenedorPrincipal">
+        <article class="tituloCategoria">
+             <label>Fitnes</label>
+        </article>
+        
+        <header class="menuCategorias">
+         <ul class="listaCategorias">   
+          <li onclick="location.href='../index.html'">Inicio</li>
+          <li onclick="filtrarFitnes('Todos')">Todos</li>
+          <li onclick="filtrarFitnes('AltoEnProteinas')">Alto En Proteinas</li>
+          <li onclick="filtrarFitnes('EnsaladasSaludables')">Ensaladas saludables</li>
+          <li onclick="filtrarFitnes('ComidasBalanceadas')">Comidas Balanceadas</li>
+          <li onclick="filtrarFitnes('BatidosProteicos')">Batidos Proteicos</li>
+          <li onclick="filtrarFitnes('snacksSaludables')">Snacks Saludables</li>
+          <li onclick="filtrarFitnes('RecetasVegetarianasFitness')">recetas Vegetarianas </li>
+         </ul>
+        </header>
+
+       <article id="contenedorFitnes" class="contenedorTarjetas">
+       </article>
+       <script src="../js/filtradoFitnes.js"></script>
+       
+       <footer>
+        <p>&copy; 2026 Antojopedia - Todos los derechos reservados.</p>
+       </footer>
+    </div>
+</body>
+</html>

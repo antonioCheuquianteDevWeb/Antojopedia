@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antojopedia | Sacia tu curiosidad y tu apetito</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+
+    <div class="contenedor-principal">
+        <label class="titulo-banner">Antojopedia</label>
+        
+        <header>
+            <ul>
+                <li><a href="VISTAS/categorias.html" class="btn-categorias">Categorías</a></li>
+                <li><a href="conversor.html" class="btn-conversor">Conversor 🍳</a></li>
+            </ul>
+        </header>
+
+        <main>
+            <article>
+                <p class="subtitulo">la enciclopedia del antojo</p>
+                
+                <section class="seccion-presentacion">
+                    <img src="../IMG/images.jpg" alt="Simio Antojado Cartoon">
+                    <p>Encuentra recetas para todo tipo de nutrición y sacia tu antojo a tu forma con los ingredientes que quieras. ¡Espero que disfrutes del contenido!</p>
+                </section>
+
+                <section class="seccion-categorias">
+                    <h3>¿Qué te apetece hoy?</h3>
+                    <div class="grid-categorias">
+                        <span onclick="cargarLista('miniPostres.html')" class="tag-categoria">🍰 Postres</span>
+                        <span onclick="cargarLista('miniFastFood.html')" class="tag-categoria">🍕 Fast Food</span>
+                        <span onclick="cargarLista('miniSaludable.html')" class="tag-categoria">🥗 Saludable</span>
+                        <span onclick="cargarLista('minibBebidas.html')" class="tag-categoria">🍹 Bebidas</span>
+                    </div>
+                    <div id="contenedorMini"></div>
+                    <script src="js/span.js "></script>
+                </section>
+
+                <section class="seccion-destacado">
+                    <h4>⭐ Destacado de la semana</h4>
+                    <p><strong>"Galletas de Chocolate Express":</strong> Listas en menos de 15 minutos y usando solo 3 ingredientes básicos. Ideal para cuando el antojo ataca a medianoche.</p>
+                </section>
+
+                <section class="seccion-curiosidad">
+                    <div class="alerta-curiosidad">
+                        <strong>💡 ¿Sabías que...?</strong> El orden en que agregas los ingredientes al hornear cambia por completo la textura. Batir la mantequilla con el azúcar antes de los huevos crea burbujas de aire que hacen los postres más esponjosos.
+                    </div>
+                </section>
+            </article>
+        </main>
+        
+        <footer>&copy; 2026 Antojopedia - Todos los derechos reservados.</footer>
+    </div>
+
+</body>
+</html>

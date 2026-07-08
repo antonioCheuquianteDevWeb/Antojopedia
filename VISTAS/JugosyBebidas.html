@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antojopedia - Jugos y Bebidas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="../css/categoriasGenerales.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contenedorPrincipal">
+        <article class="tituloCategoria">
+             <label>Jugos y Bebidas</label>
+        </article>
+        
+        <header class="menuCategorias">
+         <ul class="listaCategorias">   
+          <li onclick="location.href='../index.html'">Inicio</li>
+          <li onclick="filtrarjugosyBebidas('Todos')">Todos</li>
+          <li onclick="filtrarjugosyBebidas('BatidosSmoothies')">Batidos y Smoothies</li>
+          <li onclick="filtrarjugosyBebidas('BebidasCalientes')">Bebidas Calientes</li>
+          <li onclick="filtrarjugosyBebidas('BebidasModernas')">Bebidas Modernas</li>
+          <li onclick="filtrarjugosyBebidas('BebidasRefrescantes')">Bebidas Refrescantes</li>
+          <li onclick="filtrarjugosyBebidas('JugosNaturales')">JugosNaturales</li>
+         </ul>
+        </header>
+
+       <article id="contenedorJugosyBebidas" class="contenedorTarjetas">
+       </article>
+       <script src="../js/filtradoJugosyBebidas.js"></script>
+       
+       <footer>
+        <p>&copy; 2026 Antojopedia - Todos los derechos reservados.</p>
+       </footer>
+    </div>
+</body>
+</html>

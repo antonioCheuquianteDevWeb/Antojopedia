@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/categoriasGenerales.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contenedorPrincipal">
+        <article class="tituloCategoria">
+             <label>Postres</label>
+        </article>
+        
+        <header class="menuCategorias">
+         <ul class="listaCategorias">
+          <li onclick="location.href='../index.html'">Inicio</li>
+          <li onclick="filtrarPostres('Todos')">Todos</li>
+          <li onclick="filtrarPostres('Tortas')">Tortas</li>
+          <li onclick="filtrarPostres('Frutales')">Frutales</li>
+          <li onclick="filtrarPostres('Helados')">Helados</li>
+         </ul>
+        </header>
+
+       <article id="contenedorPostres" class="contenedorTarjetas">
+       </article>
+       <script src="../js/filtradoPostres.js"></script>
+       
+       <footer>
+        <p>&copy; 2026 Antojopedia - Todos los derechos reservados.</p>
+       </footer>
+    </div>
+</body>
+</html>
