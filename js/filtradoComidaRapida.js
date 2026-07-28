@@ -1,4 +1,4 @@
-function CargarComida(carga) {
+function filtroAlmuerzos(carga) {
 
     const conteneddor = document.getElementById("contenedorComidaRapida");
 
@@ -33,5 +33,5 @@ function CargarComida(carga) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    CargarComida("Todos");
+    filtroAlmuerzos("Todos");
 });
