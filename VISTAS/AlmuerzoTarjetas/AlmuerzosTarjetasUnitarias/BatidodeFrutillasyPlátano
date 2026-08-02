@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../css/elementoUnitario.css">
+    <title>Batido de frutillas y plátano - Antojopedia</title>
+</head>
+<body>
+
+<header>
+    <label class="Titulo">Antojopedia</label>
+    <nav>
+        <ul>
+            <li><a href="../../../index.html">Inicio</a></li>
+            <li><a href="../../categorias.html">Categorías</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <article class="descripcion">
+        <h2>Batido de frutillas y plátano</h2>
+
+        <section class="descripcionPrincipal">
+            <img src="../../../IMG/CarneSalteadaconVerdurasyArroz.webp"
+                 alt="Aros de Cebolla">
+
+            <p>
+     El batido de frutillas y plátano es una bebida sencilla y nutritiva que combina el sabor dulce del plátano con el toque fresco y ligeramente ácido de las frutillas.
+
+Gracias a su textura cremosa y a la facilidad de su preparación, se ha convertido en una de las bebidas más populares para cualquier momento del día.
+
+Además, puedes personalizar la receta añadiendo miel, avena o yogur para conseguir distintos sabores y texturas.
+            </p>
+        </section>
+    </article>
+
+    <article class="ingrediente">
+        <ul>
+            <li><strong>Tiempo de preparación</strong> 10 minutos.</li>
+            <li><strong>Tiempo de cocción</strong> 15 minutos.</li>
+            <li><strong>Porciones</strong> 2.</li>
+            <li><strong>Dificultad</strong> Fácil</li>
+          
+            
+        </ul>
+    </article>
+
+    <article class="ingredientes">
+
+        <h3>Ingredientes</h3>
+        <ul>
+            <li>200 g de frutillas.</li>
+            <li>1 plátano maduro.</li>
+            <li>250 ml de leche.</li>
+            <li>2 cucharadas de yogur natural.</li>
+            <li>1 cucharada de miel.</li>
+            <li>Cubos de hielo.</li>
+        </ul>
+    </article>
+
+    <article class="instrucciones">
+
+        <h3>Instrucciones de Preparación</h3>
+
+        <ol>
+
+            <li>
+                Lava las frutillas y retira las hojas.
+            </li>
+
+            <li>
+                Pela el plátano y córtalo en trozos pequeños.
+            </li>
+
+            <li>
+              Coloca las frutas en la licuadora.
+            </li>
+
+            <li>
+              Añade la leche, el yogur y la miel.
+            </li>
+
+            <li>
+                Agrega algunos cubos de hielo.
+            </li>
+            <li>Licúa todos los ingredientes hasta obtener una mezcla homogénea.</li>      
+            <li>Lleva el batido al refrigerador durante unos minutos.</li>     
+            <li>Sirve la bebida bien fría.</li>
+        </ol>
+    </article>
+
+    <article class="Ingredientes">
+        
+        <strong>Consejos</strong>
+
+        <ul>
+            <li>Puedes sustituir la leche por una bebida vegetal.</li>
+            <li>Añade avena para obtener una bebida más nutritiva.</li>
+            <li>Utiliza fruta congelada para conseguir una textura más cremosa.</li>
+            <li>Decora el vaso con trozos de frutilla.</li>
+        </ul>
+    </article>
+
+    <article class="ingredientes">
+        <strong>Conservación</strong>
+        Lo ideal es consumir el batido inmediatamente después de prepararlo para conservar todo su sabor y su textura.  
+    </article>
+
+    <article>
+        <ul>
+            <li><strong>Calorías</strong> 160 kcal.</li>
+            <li><strong>Carbohidratos</strong> 30 g.</li>
+            <li><strong>Grasas</strong> 2 g.</li>
+            <li><strong>Proteínas</strong> 4 g.</li>
+            <li><strong>Fibra</strong>3 g.</li>
+
+        </ul>
+    </article>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Antojopedia - Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html> 
