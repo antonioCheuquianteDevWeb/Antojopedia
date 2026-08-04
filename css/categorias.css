@@ -18,7 +18,7 @@ body {
     background-color: #fdfbf7;
     width: 100%;
     max-width: 1100px; /* Ancho ideal para una cuadrícula elegante */
-    min-height: 100vh;
+   
     display: flex;
     flex-direction: column;
     box-shadow: 0px 0px 30px rgba(0,0,0,0.05);
