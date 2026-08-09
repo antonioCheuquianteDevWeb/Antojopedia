@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antojopedia - Jugos y Bebidas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="../css/categoriasGenerales.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contenedorPrincipal">
+        <article class="tituloCategoria">
+             <label>Los tapaarterias</label>
+        </article>
+        
+        <header class="menuCategorias">
+         <ul class="listaCategorias">   
+          <li onclick="location.href='../index.html'">Inicio</li>
+          <li onclick="FiltradoLosTapaarterias('Todos')">Todos</li>
+          <li onclick="FiltradoLosTapaarterias('HamburguesasCriminales')">Hamburguesas criminales</li>
+          <li onclick="FiltradoLosTapaarterias('PlatosconAntecedentes')">Platos con antecedentes</li>
+          <li onclick="FiltradoLosTapaarterias('CaloríassinSupervisión')">Calorías sin supervisión</li>
+          <li onclick="FiltradoLosTapaarterias('EstonoesunaComidaEsunDesafío')">Esto no es una comida, es un desafío</li>
+          <li onclick="FiltradoLosTapaarterias('ElMédiconorecomiendaestaReceta')">El médico no recomienda esta receta</li>
+          <li onclick="FiltradoLosTapaarterias('¿DeverdadalguiensecomeEsto?')">¿De verdad alguien se come esto?</li>
+         </ul>
+        </header>
+
+       <article id="contenedorLosTapaarterias" class="contenedorTarjetas">
+       </article>
+       <script src="../js/JiltradoTapaarterias.js"></script>
+       
+       <footer>
+        <p>&copy; 2026 Antojopedia - Todos los derechos reservados.</p>
+       </footer>
+    </div>
+</body>
+</html>
